@@ -1,0 +1,151 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+/* nav */
+nav {
+  display: flex;
+justify-content: center;
+  margin-bottom: 2rem;
+}
+
+nav li {
+display: inline;
+margin-right: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav li a:hover {
+  color: white;
+  border: 1px solid black;
+  border-width: 7px;
+  background-color: black;
+}
+
+
+
+/* Heading styles */
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Post styles */
+.single-post {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.post h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: black 2px solid;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+justify-content: center;
+padding: 2rem;
+}
+
+/* MEDIA QUERIES */
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .post {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  form input[type="text"],
+  form textarea {
+    padding: 6px;
+  }
+
+  form button[type="submit"] {
+    padding: 8px 16px;
+  }
+}
+
