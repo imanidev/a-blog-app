@@ -1,30 +1,24 @@
 {
   "name": "blog-app",
-  "private": false,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a full-stack blog application built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete blog posts. You can find the deployed version of the application on Vercel [here](https://imani-blog.vercel.app/).",
+  "main": "vite.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanidev/a-blog-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanidev/a-blog-app/issues"
+  },
+  "homepage": "https://github.com/imanidev/a-blog-app#readme",
   "dependencies": {
-    "axios": "^1.4.0",
-    "cors": "^2.8.5",
-    "params": "^0.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "vite": "^4.3.9"
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0"
   }
 }
