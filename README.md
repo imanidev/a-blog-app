@@ -8,7 +8,7 @@ This is a full-stack blog application built using the MERN stack, which stands f
 The MERN Blog Application is designed to provide a user-friendly platform for blogging. Users can create, update, edit and delete their blog posts.
 
 ----
-  
+
 ## Technologies Used
 
 ### Front-end:
@@ -21,7 +21,7 @@ The MERN Blog Application is designed to provide a user-friendly platform for bl
   - Express.js
   - MongoDB
   - Mongoose
-  
+
 ### Other tools and libraries:
   - Axios
   - Morgan
@@ -52,7 +52,7 @@ git clone
 
 ```bash
 
-cd mern-blog
+cd blog-app
 
 ```
 

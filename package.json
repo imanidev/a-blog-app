@@ -4,7 +4,8 @@
   "description": "This is a full-stack blog application built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete blog posts. You can find the deployed version of the application on Vercel [here](https://imani-blog.vercel.app/).",
   "main": "vite.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,11 @@
   "homepage": "https://github.com/imanidev/a-blog-app#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "mongodb": "^6.15.0"
+    "mongodb": "^6.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^6.2.4"
   }
 }

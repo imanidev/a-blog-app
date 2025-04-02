@@ -1,7 +1,7 @@
 import axios from "axios";
 // const url = "http://localhost:3001/posts"; // 3001 is backend server
 
-const url = 'https://mern-blog-api-he2o.onrender.com/posts';
+const url = 'https://blog-api-hw2u.onrender.com/posts';
 
 //  get all posts
 export const getAllPosts = async () => {
